@@ -112,12 +112,12 @@ class SignUp extends StatelessWidget{
                       // obscureText: true,
                       decoration: InputDecoration(
                           border: InputBorder.none,
-                          label: Text("Confirm Password"),
+                          label: Text("Password"),
                           // suffixIcon: IconButton(icon: Icon(Icons.visibility), onPressed: () {},),
                           labelStyle: TextStyle(
                               color: Colors.black
                           ),
-                          hintText: "Enter you Confirm Password",
+                          hintText: "Enter your Password",
                           contentPadding: EdgeInsets.symmetric(horizontal: 20,vertical: 10)
                       ),
                     ),
